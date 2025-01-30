@@ -1,6 +1,28 @@
 [[headers]]
-  for = "/*.js"
+  for = "*.js"
   [headers.values]
     
     #  Multi-value headers are expressed with multi-line strings
-	cache-control= "max-age=604800"
+	cache-control= "max-age=300"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    
+    #  Multi-value headers are expressed with multi-line strings
+	cache-control= "max-age=300"
+
+
+[[headers]]
+  for = "*.woff2"
+  [headers.values]
+    
+    #  Multi-value headers are expressed with multi-line strings
+	cache-control= "max-age=300"
+
+[[headers]]
+  for = "*.ico"
+  [headers.values]
+    
+    #  Multi-value headers are expressed with multi-line strings
+	cache-control= "max-age=300"
